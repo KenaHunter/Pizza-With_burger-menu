@@ -1,0 +1,101 @@
+
+.button{
+    background-color: #ffcc33;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    transition: .4s;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: rgb(206, 206, 206);
+    
+}
+
+.button:hover a{
+    color: #fff;
+}
+
+.main-section {
+    width: 100%;
+}
+
+
+.fixed-button {
+    position: relative;
+    z-index: 1;
+}
+
+.buttons {
+    display: flex;
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    right: 40px;
+    bottom: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffcc33;
+    font-size: 28px;
+    color: #000;
+    border: none;
+    border-radius: 3px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.buttons i {
+    font-size: 18px;
+    color: #000;
+    transition: .4s;
+}
+
+.buttons:hover {
+    background-color: #b8b8b8;
+}
+
+.buttons:hover i {
+    color: #fff;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: #b8b8b8;
+ }
+ 
+ ::-webkit-scrollbar-thumb {
+    background-color: #ffcc33;
+    border-radius: 100px;
+ 
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: #313131;
+    }
+ }
+ 
+ 
+ 
+ /* FireFox */
+ 
+ html, body {
+    scrollbar-color: #ffcc33,  #b8b8b8;  /* scroll / background */
+    scrollbar-width: 10px;
+ }

@@ -1,0 +1,130 @@
+.main-slider-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-slider-item-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+    z-index: 1;
+}
+
+.main-slider-item p {
+    color: #b8b8b8;
+    font-family: Halant, serif;
+    font-size: 18px;
+    width: 50%;
+    line-height: 25px;
+    text-align: center;
+    
+}
+
+.main-slider {
+    background-color: black;
+    padding: 100px 0;
+}
+
+.main-slider-img {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.main-slider-img-card img {
+    margin-bottom: 30px;
+}
+
+.main-slider-img-card {
+    width: calc(25% - 20px);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.main-slider-img-card h3 {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.card-text {
+    font-family: Halant, serif;
+    font-size: 18px;
+    color: #b8b8b8;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+.price {
+    color: #FFCC33;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.arrows {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    gap: 15px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+@media (max-width: 1200px) {
+    .main-slider-img-card:last-child {
+        display: none;
+    }
+    .main-slider-img-card {
+        width: calc(33.33% - 20px);
+    }
+}
+
+@media (max-width: 900px) {
+    .main-slider-img-card:nth-child(3) {
+        display: none;
+    }
+    .main-slider-img-card {
+        width: calc(50% - 20px);
+    }
+    .main-slider-item p {
+        width: 100%;
+    }
+    .main-slider-item-logo {
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 600px) {
+    .main-slider-img-card:nth-child(2) {
+        display: none;
+    }
+    .main-slider-img-card {
+        width: calc(100% - 20px);
+    }
+    .main-slider-img {
+        justify-content: center;
+    }
+    .main-slider-item-logo h2 {
+        font-size: 30px;
+        z-index: 999;
+    }
+}
+
+
+
+
+
+

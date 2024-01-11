@@ -1,0 +1,32 @@
+.gallery {
+    background-color: #000;
+    padding: 100px 0;
+}
+
+.gallery-img {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.gallery-img img {
+    width: 33.33%;
+    transition: .4s;
+}
+
+.gallery-img img:hover {
+    opacity: .6;
+}
+
+@media(max-width: 1000px) {
+    .gallery-img img {
+        width: 50%;
+    }
+}
+
+@media(max-width: 600px) {
+    .gallery-img img {
+        width: 100%;
+    }
+}

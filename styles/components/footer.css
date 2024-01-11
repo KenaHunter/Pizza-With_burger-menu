@@ -1,0 +1,31 @@
+.footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px;
+    gap: 5px;
+}
+
+.footer-p {
+    color: #b8b8b8;
+    font-family: Halant, serif;
+    font-size: 12px;
+}
+
+.footer a {
+    border-bottom: 1px solid #b8b8b8;
+    color: #b8b8b8;
+    font-family: Halant, serif;
+    font-size: 12px;
+}
+
+@media(max-width: 400px) {
+    .footer-p {
+        font-size: 9px;
+    }
+    .footer a {
+        font-size: 9px;
+    }
+}
+

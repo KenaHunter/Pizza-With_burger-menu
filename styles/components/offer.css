@@ -1,0 +1,59 @@
+.offer {
+    background-image: url(../../images/bg-offer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    height: auto;
+    width: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    padding: 100px 0;
+}
+
+.wrapper h2 {
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+
+.button2{
+    background-color: #ffcc33;
+    border: none;
+    border-radius: 3px;
+    transition: .4s;
+    cursor: pointer;
+    text-align: center;
+    width: 200px;
+    height: 43px;
+}
+
+.button2 a {
+    font-size: 18px;
+    color: #000;
+    text-transform: uppercase;
+    transition: .4s;
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.button2:hover {
+    background-color: rgb(206, 206, 206);
+    
+}
+
+.button2:hover a{
+    color: #fff;
+}
+
+@media(max-width: 600px) {
+    .wrapper h2 {
+        font-size: 30px;
+    }
+}

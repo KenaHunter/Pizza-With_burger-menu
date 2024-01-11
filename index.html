@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza</title>
+    <script src="https://kit.fontawesome.com/97d5b8492b.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bezier-easing/2.1.0/bezier-easing.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/all.css">
+    <link rel="shortcut icon" href="images/icons-saita.png" type="image/x-icon">
+</head>
+<body>
+    <div class="fixed-button">
+        <button class="buttons">
+            <a href="#">
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+        </button>
+    </div>
+    
+    <header class="header" id="home">
+        <div class="container header-dop">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/logo.png" alt="This is logo">
+                </a>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#about-us">ABOUT US</a></li>
+                    <li><a href="#chefs">CHEFS</a></li>
+                    <li><a href="#menu">MENU</a></li>
+                    <li><a href="#gallery">GALLERY</a></li>
+                    <li><a href="#contacts">CONTACTS</a></li>
+                </ul>
+            </nav>
+            <div class="burger-menu" onclick="toggleMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <div class="burger-menu-menu" id="burger-menu-menu">
+        <div class="burger-menu-menu-close" onclick="closeMenu()">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#about-us">ABOUT US</a></li>
+          <li><a href="#chefs">CHEFS</a></li>
+          <li><a href="#menu">MENU</a></li>
+          <li><a href="#gallery">GALLERY</a></li>
+          <li><a href="#contacts">CONTACTS</a></li>
+        </ul>
+    </div>
+
+    <section class="main">
+        <div class="container">
+            <h1>BEST QUALITY FOOD</h1>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias provident laborum, recusandae
+                delectus
+                corrupti reprehenderit error distinctio eligendi qui consequuntur officia.
+            </p>
+            <div class="btnn"><button class="button">
+                <a href="#">book a table</a>
+            </button></div>
+        </div>
+    </section>
+    
+    <section class="main-slider">
+        <div class="container">
+            <div class="main-slider-item">
+                <div class="main-slider-item-logo">
+                    <img src="images/bg-title.png" alt="">
+                    <h2>OUR SPECIAL DISHES</h2>
+                </div>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, labore quasi temporibus consectetur
+                    suscipit sunt tenetur, veniam neque distinctio <br> fugit in sint natus deserunt hic eaque dolores.
+                </p>
+            </div>
+            <div class="main-slider-img">
+                <div class="main-slider-img-card  dopp">
+                    <img src="images/pasta.jpg" alt="pasta">
+                    <h3>PASTA</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p class="price">$11.30</p>
+                </div>
+                <div class="main-slider-img-card">
+                    <img src="images/burger.png" alt="pasta">
+                    <h3>BURGER</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p class="price">$8.60</p>
+                </div>
+                <div class="main-slider-img-card">
+                    <img src="images/burger-meal.jpg" alt="pasta">
+                    <h3>BURGER MEAL</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p class="price">$12.99</p>
+                </div>
+                <div class="main-slider-img-card">
+                    <img src="images/pizza.jpg" alt="pasta">
+                    <h3>DOUBLE CHEESE PIZZA</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p class="price">$15.00</p>
+                </div>
+            </div>
+            <div class="arrows">
+                <i class="fa-solid fa-arrow-left"></i>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-us" id="about-us">
+        <div class="container about-as-dop">
+            <div class="about-us-left">
+                <img src="images/about-big.jpg" alt="">
+                <button class="button">
+                    <a href="https://youtu.be/0O2aH4XLbto" target="_blank">
+                        <i class="fa-solid fa-play"></i>
+                    </a>
+                </button>
+            </div>
+            <div class="about-us-right">
+                <div class="about-us-logo">
+                    <img src="images/bg-title.png" alt="">
+                    <h2>GOOD FOOD FOR YOUR ALL DAY GOOD MOOD</h2>
+                </div>
+                <p class="peshka">
+                    Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Itaque dolore nisi ipsa neque?
+                    Dolorem incidunt fugiat temporibus animi nobis, vero expedita voluptate dignissimos officiis quis
+                    pariatur earum voluptas quia sed.
+                </p>
+                <p class="peshka">
+                    Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Itaque dolore nisi ipsa neque?
+                    Dolorem incidunt fugiat temporibus animi nobis, vero expedita voluptate dignissimos officiis quis
+                    pariatur earum voluptas quia sed.
+                </p>
+                <p class="peshka">
+                    Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Itaque dolore nisi ipsa neque?
+                    Dolorem incidunt fugiat temporibus animi nobis, vero expedita voluptate dignissimos officiis quis
+                    pariatur earum voluptas quia sed.
+                </p>
+                <div class="about-us-item">
+                    <div class="about-us-item-text">
+                        <img src="images/about-us-img1.png" alt="">
+                        <p>EXPERIENCED CHEFS</p>
+                    </div>
+                    <div class="about-us-item-text">
+                        <img src="images/about-us-img2.png" alt="">
+                        <p>ORIGINAL RECIPES</p>
+                    </div>
+                    <div class="about-us-item-text">
+                        <img src="images/about-us-img3.png" alt="">
+                        <p>FRESH INGREDIENTS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="offer">
+        <div class="container">
+            <div class="wrapper">
+                <h2>DOUBLE CHEESE PIZZA <br> 30% OFF FRIDAY ONLY</h2>
+                <button class="button2">
+                    <a href="#">book a table</a>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="chefs" id="chefs">
+        <div class="container">
+            <div class="main-slider-item">
+                <div class="main-slider-item-logo">
+                    <img src="images/bg-title.png" alt="">
+                    <h2>OUR BEST CHEFS</h2>
+                </div>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, labore quasi temporibus consectetur
+                    suscipit sunt tenetur, veniam neque distinctio fugit in sint natus deserunt hic eaque dolores.
+                </p>
+            </div>
+            <div class="chefs-card">
+                <div class="chef">
+                    <img src="images/chef-1.jpg" alt="chef-1">
+                    <h3>RICHARD NAUZ</h3>
+                    <p>food chef</p>
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <div class="chef">
+                    <img src="images/chef-2.jpg" alt="chef-1">
+                    <h3>RICHARD NAUZ</h3>
+                    <p>food chef</p>
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <div class="chef">
+                    <img src="images/chef-3.jpg" alt="chef-1">
+                    <h3>RICHARD NAUZ</h3>
+                    <p>food chef</p>
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <div class="chef">
+                    <img src="images/chef-4.jpg" alt="chef-1">
+                    <h3>RICHARD NAUZ</h3>
+                    <p>food chef</p>
+                    <ul>
+                        <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="https://twitter.com/?lang=ru"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <div class="container">
+            <div class="our-menu">
+                <img src="images/bg-title.png" alt="">
+                <h2>OUR MENU</h2>
+            </div>
+            <div class="menu-sort">
+                <button><a href="#">ALL</a></button>
+                <button><a href="#">BURGERS</a></button>
+                <button><a href="#">PIZZAS</a></button>
+                <button><a href="#">STEAKS</a></button>
+                <button><a href="#">PASTS</a></button>
+                <button><a href="#">SALADS</a></button>
+                <button><a href="#">DESERTS</a></button>
+                <button><a href="#">DRINKS</a></button>
+            </div>
+            <div class="main-slider-img menu-dop">
+                <div class="main-slider-img-card menu-sort-img">
+                    <img src="images/our_menu_img/1.jpg" alt="pasta">
+                    <h3>DOUBLE CHEESE PIZZA</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p class="price">$11.30</p>
+                </div>
+                <div class="main-slider-img-card menu-sort-img">
+                    <img src="images/our_menu_img/2.jpg" alt="pasta">
+                    <h3>SEAFOOD</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p class="price">$8.60</p>
+                </div>
+                <div class="main-slider-img-card menu-sort-img">
+                    <img src="images/our_menu_img/3.png" alt="pasta">
+                    <h3>DOUBLE MAC BURGER</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p class="price">$12.99</p>
+                </div>
+                <div class="main-slider-img-card menu-sort-img">
+                    <img src="images/our_menu_img/4.jpg" alt="pasta">
+                    <h3>PASTA</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p class="price">$15.00</p>
+                </div>
+                <div class="main-slider-img-card menu-sort-img-hover menu-sort-img">
+                    <img src="images/our_menu_img/5.jpg" alt="pasta">
+                    <h3>BEEF CHEESE BURGER</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p class="price">$11.30</p>
+                </div>
+                <div class="main-slider-img-card menu-sort-img-hover menu-sort-img">
+                    <img src="images/our_menu_img/6.jpg" alt="pasta">
+                    <h3>GRAND ITALIANO PIZZA</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p class="price">$8.60</p>
+                </div>
+                <div class="main-slider-img-card menu-sort-img-hover menu-sort-img">
+                    <img src="images/our_menu_img/7.jpg" alt="pasta">
+                    <h3>LEMONADE</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p class="price">$12.99</p>
+                </div>
+                <div class="main-slider-img-card menu-sort-img-hover menu-sort-img">
+                    <img src="images/our_menu_img/8.jpg" alt="pasta">
+                    <h3>CHICKEN BURGER</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p class="price">$15.00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="our-menu">
+                <img src="images/bg-title.png" alt="">
+                <h2>GALLERY</h2>
+            </div>
+            <div class="gallery-img">
+                <img src="images/gallery-1.jpg" alt="">
+                <img src="images/gallery-2.jpg" alt="">
+                <img src="images/gallery-3.jpg" alt="">
+                <img src="images/gallery-4.jpg" alt="">
+                <img src="images/gallery-5.jpg" alt="">
+                <img src="images/gallery-6.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="form-parent">
+        <div class="container">
+            <div class="our-menu back">
+                <img src="images/bg-title.png" alt="">
+                <h2>BOOK A TABLE</h2>
+            </div>
+            <div class="form-container">
+                <form action="#" class="formFirst form">
+                    <label for="name">NAME:</label>
+                    <input type="text" id="name" placeholder="Name">
+                    <label for="Phone">PHONE:</label>
+                    <input type="text" id="Phone" placeholder="Phone">
+                    <label for="Date">DATE:</label>
+                    <input type="date" id="Date" placeholder="Date">
+                    <button class="button3 button">
+                        <a href="#">BOOK A TABLE</a>
+                    </button>
+                </form>
+                <form action="#" class="formSecond form">
+                    <label for="ln">LAST NAME:</label>
+                    <input type="text" id="ln" placeholder="Last Name">
+                    <label for="email">EMAIL:</label>
+                    <input type="email" id="email" placeholder="Email">
+                    <label for="time">TIME:</label>
+                    <input type="time" id="time" placeholder="Time">
+                    <button class="button3 button">
+                        <a href="#">BOOK A TABLE</a>
+                    </button>
+                </form>
+                <div class="hours">
+                    <h2>OPENING HOURS</h2>
+                    <p class="firstP">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, inventore hic nulla,
+                        provident laudantium voluptate ipsa eligendi commodi mollitia vero animi, repudiandae quidem minima
+                        est sint sapiente quas iure deleniti.</p>
+                    <div class="apta">
+                        <p>Monday - Friday</p>
+                        <p>8AM - 6PM</p>
+                    </div>
+                    <div class="apta">
+                        <p>Saturday</p>
+                        <p>9AM - 5PM</p>
+                    </div>
+                    <div class="apta">
+                        <p>Sunday</p>
+                        <p>9AM - 4PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <div class="our-menu contacts-our-menu">
+                <img src="images/bg-title.png" alt="">
+                <h2>CONTACTS</h2>
+            </div>
+            <div class="contacts-item">
+                <div class="contacts-child">
+                    <h3>
+                        <i class="fa-solid fa-location-dot"></i>
+                        LOCATION
+                    </h3>
+                    <p>2900 Lapeer Rd, Port Hurons</p>
+                </div>
+                <div class="contacts-child">
+                    <h3>
+                        <i class="fa-solid fa-phone"></i>
+                        PHONE
+                    </h3>
+                    <p>
+                        <a class="phone" href="#">800 478 42 51</a>
+                    </p>
+                </div>
+                <div class="contacts-child">
+                    <h3>
+                        <i class="fa-solid fa-envelope"></i>
+                        EMAIL
+                    </h3>
+                    <p>info@restfood.com</p>
+                </div>
+                <div class="social">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="carta">
+        <script type="text/javascript" charset="utf-8" async
+            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af0c56950716a01786392fc7709adc36c3064de7046b26bf44f8c4492af03fde1&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+    </section>
+
+    <footer class="footer">
+        <p class="footer-p">Copyright © All rights reserved.</p>
+        <a href="#">Terms of use and Privacy Policy.</a>
+    </footer>
+    
+</body>
+<script>
+    window.onscroll = function () {
+        const header = document.querySelector('.header');
+        if (window.scrollY > 100) {
+            header.classList.add('updated-class');
+        } else {
+            header.classList.remove('updated-class');
+        }
+    }
+
+    const btnUp = document.querySelector('.buttons');
+
+    window.addEventListener('scroll', () => {
+    const scrollY = window.scrollY;
+
+    if (scrollY > 300) {
+        btnUp.classList.remove('hidden');
+    } else {
+        btnUp.classList.add('hidden');
+    }
+    });
+
+    btnUp.addEventListener('click', () => {
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+    });
+    });
+
+    function toggleMenu() {
+    var menu = document.getElementById("burger-menu-menu");
+    if (menu.classList.contains("active")) {
+        menu.classList.remove("active");
+    } else {
+        menu.classList.add("active");
+    }
+    }
+
+    function closeMenu() {
+    var menu = document.getElementById("burger-menu-menu");
+    menu.classList.remove("active");
+    }
+</script>
+</html>

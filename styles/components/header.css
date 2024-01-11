@@ -1,0 +1,144 @@
+body {
+    background-image: url(../../images/bg-header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.header {
+    position: sticky;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    z-index: 999;
+    transition: all .3s ease;
+    width: 100%;
+}
+
+.header-dop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo img {
+    max-height: 62px;
+    margin: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul li {
+    margin-right: 50px;
+}
+
+nav ul li:last-child{
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: .4s;
+}
+
+.burger-menu {
+    display: none;
+    font-size: 40px;
+}
+
+
+nav ul li a:hover {
+    color: #ffcc33;
+}
+
+.updated-class { 
+    background-color: black;
+}
+
+.burger-menu {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .burger-menu i {
+    font-size: 24px;
+    color: white;
+  }
+  
+  .burger-menu:hover {
+    color: #ffcc33;
+  }
+  
+  .burger-menu-menu {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 320px;
+    height: 100vh;
+    background-color: black;
+    z-index: 1000;
+    overflow-y: scroll;
+  }
+  
+  .burger-menu-menu.active {
+    display: block;
+  }
+  
+  .burger-menu-menu-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+  }
+  
+  .burger-menu-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .burger-menu-menu li {
+    padding: 20px;
+  }
+  
+  .burger-menu-menu li a {
+    color: white;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+  }
+  .burger-menu-menu li a:hover {
+    color: #ffcc33;
+  }
+
+@media(max-width: 1000px) {
+    .header {
+        justify-content: space-between;
+    }   
+    .header nav {
+        display: none;
+    }
+    .burger-menu {
+        display: block;
+    }
+    body {
+        background-position:center center;
+    }
+
+}
